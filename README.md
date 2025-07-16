@@ -1,227 +1,52 @@
-# Uyanda's Portfolio
+# 🌐 Uyanda's Portfolio
 
-Welcome to my portfolio! Here you'll find information about my projects, skills, and experience.
+Welcome to my portfolio! Here you'll find my web, mobile, and full-stack projects, skills, and contact details. I'm passionate about building creative, functional, and accessible digital experiences.
 
 ## 🚀 Projects
 
-- **Project 1:** Brief description of your project.
-- **Project 2:** Brief description of your project.
-- **Project 3:** Brief description of your project.
+- **Hangman Game**  
+  A classic word guessing game built with JavaScript.  
+  🔗 [GitHub](https://github.com/UyandaSibiya/hangman)
+
+- **Snake and Ladder Game**  
+  A digital version of the board game made using JavaScript and HTML.  
+  🔗 [GitHub](https://github.com/UyandaSibiya/snake-and-ladder)
+
+- **AI Note App**  
+  A note-taking app powered by AI features for smarter organization.  
+  🔗 [GitHub](https://github.com/UyandaSibiya/ai-note-app)
+
+- **App Academy Projects (Weeks 1–9)**  
+  Full curriculum projects from the FNB App Academy covering frontend, backend, JavaScript, Node.js, APIs, and more:
+  - [Week 1](https://github.com/UyandaSibiya/AppAcademyweek1)
+  - [Week 2](https://github.com/UyandaSibiya/AppAcademyweek2)
+  - [Week 3](https://github.com/UyandaSibiya/AppAcademyweek3)
+  - [Week 4](https://github.com/UyandaSibiya/AppAcademyweek4)
+  - [Week 5](https://github.com/UyandaSibiya/AppAcademyweek5)
+  - [Week 6](https://github.com/UyandaSibiya/AppAcademyweek6)
+  - [Week 7](https://github.com/UyandaSibiya/AppAcademyweek7)
+  - [Week 8](https://github.com/UyandaSibiya/AppAcademyweek8)
+  - [Week 9](https://github.com/UyandaSibiya/AppAcademyweek9)
 
 ## 🛠️ Skills
 
-- Programming Languages: Python, JavaScript, etc.
-- Frameworks: React, Django, etc.
-- Tools: Git, Docker, etc.
+- **Languages:** JavaScript (ES6+), Python, HTML5, CSS3
+- **Frameworks & Libraries:** React, Node.js, Express, Next.js
+- **Tools & Platforms:** Git, GitHub, VS Code, Figma
+- **Other:** RESTful APIs, Responsive Design, UI/UX, Deployment
+
+## 🌐 Portfolio Website
+
+🔗 [Visit My Portfolio](https://uyandasibiya.github.io)  
+(*If hosted elsewhere, update this link accordingly*)
 
 ## 📫 Contact
 
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
+- **Email:** uyandasibiya@gmail.com
+- **LinkedIn:** [linkedin.com/in/uyandasibiya](https://linkedin.com/in/uyandasibiya)
+- **GitHub:** [github.com/UyandaSibiya](https://github.com/UyandaSibiya)
 
 ---
 
-Thank you for visiting my portfolio!/* Reset and basic styles */
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #0d0d1a;
-  color: #fff;
-  overflow-x: hidden;
-}
+Thank you for visiting my portfolio!
 
-/* Navigation bar */
-nav {
-  background: #000;
-  padding: 1em;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* Allows links to wrap on small screens */
-  gap: 20px; /* Adds spacing between links */
-  text-align: center;
-  margin-bottom: 30px; /* Space below nav */
-}
-
-nav a {
-  color: #ff00c8;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  white-space: nowrap; /* Prevent link text from breaking */
-}
-
-nav a:hover {
-  color: #fff;
-  text-shadow: 
-    0 0 5px #ff00c8,
-    0 0 10px #ff1a75,
-    0 0 20px #ff00c8;
-  animation: moving-neon-glow 4s ease-in-out infinite alternate;
-}
-
-/* Section styling */
-section {
-  padding: 60px 20px;
-  min-height: 100vh;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.6;
-}
-
-/* Headings */
-h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-  color: #ff00c8;
-  text-shadow:
-    0 0 5px #ff00c8,
-    0 0 10px #ff1a75,
-    0 0 20px #ff00c8;
-  animation: moving-neon-glow 4s ease-in-out infinite alternate;
-}
-
-/* Neon Animated Button */
-.btn {
-  position: relative;
-  padding: 12px 30px;
-  margin-top: 30px;
-  border-radius: 30px;
-  border: 2px solid transparent;
-  background: linear-gradient(90deg, #ff00c8, #ff1a75, #00ffff, #ff00c8);
-  background-size: 300% 300%;
-  color: #ff00c8;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-  box-shadow: 
-    0 0 8px #ff00c8, 
-    0 0 20px #ff1a75;
-  transition: color 0.3s ease;
-  animation: 
-    neon-glow 6s linear infinite,
-    flicker-neon 3s ease-in-out infinite alternate;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(90deg, #ff00c8, #ff1a75, #00ffff, #ff00c8);
-  animation: border-shift 6s linear infinite;
-  display: inline-block;
-  user-select: none;
-}
-
-/* Hover state */
-.btn:hover {
-  background: #ff00c8;
-  color: #0d0d1a;
-  box-shadow: 
-    0 0 15px #ff00c8, 
-    0 0 30px #f31970;
-  -webkit-text-fill-color: initial;
-  animation-play-state: paused;
-  border-image-source: linear-gradient(90deg, #ff00c8, #ff1a75, #00ffff, #ff00c8);
-}
-
-/* Neon text animation */
-@keyframes neon-glow {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-/* Border color shift animation */
-@keyframes border-shift {
-  0%, 100% {
-    border-image-source: linear-gradient(90deg, #ff00c8, #ff1a75, #00ffff, #ff00c8);
-  }
-  50% {
-    border-image-source: linear-gradient(270deg, #ff00c8, #00ffff, #ff1a75, #ff00c8);
-  }
-}
-
-/* Moving neon glow text animation for headings and nav hover */
-@keyframes moving-neon-glow {
-  0%, 100% {
-    text-shadow:
-      0 0 8px #ff00c8,
-      0 0 20px #ff1a75,
-      0 0 30px #ff00c8,
-      0 0 40px #ff1a75,
-      0 0 50px #ff00c8;
-  }
-  50% {
-    text-shadow:
-      0 0 10px #ff1a75,
-      0 0 25px #ff00c8,
-      0 0 35px #ff1a75,
-      0 0 45px #ff00c8,
-      0 0 60px #ff1a75;
-  }
-}
-
-/* Flickering neon glow animation for buttons */
-@keyframes flicker-neon {
-  0%, 100% {
-    box-shadow:
-      0 0 10px #ff00c8,
-      0 0 30px #ff1a75,
-      0 0 40px #ff00c8;
-  }
-  50% {
-    box-shadow:
-      0 0 15px #ff1a75,
-      0 0 40px #ff00c8,
-      0 0 50px #ff1a75;
-  }
-}
-
-/* Image styling */
-.profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 4px solid #ff00c8;
-  box-shadow:
-    0 0 15px #ff00c8,
-    0 0 30px #ff1a75;
-  margin: 30px auto;
-  display: block;
-  object-fit: cover;
-}
-
-/* Spacing for CV download */
-.cv-download {
-  margin-top: 40px;
-  font-size: 1.2em;
-}
-
-/* Paragraphs styling */
-p {
-  font-size: 1.1em;
-  max-width: 700px;
-  margin: 20px auto;
-  color: #ddd;
-  text-align: justify;
-}
-
-/* Footer styling (if needed) */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #777;
-}
-footer a {
-  color: #ff00c8;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-footer a:hover {
-  color: #fff;
-  text-shadow: 0 0 10px #ff00c8;
-}
