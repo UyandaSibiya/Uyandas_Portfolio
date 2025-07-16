@@ -94,7 +94,7 @@ h1 {
   color: #0d0d1a;
   box-shadow: 
     0 0 15px #ff00c8, 
-    0 0 30px #ff1a75;
+    0 0 30px #f31970;
   -webkit-text-fill-color: initial;
   animation-play-state: paused;
   border-image-source: linear-gradient(90deg, #ff00c8, #ff1a75, #00ffff, #ff00c8);
@@ -201,3 +201,19 @@ footer a:hover {
   color: #fff;
   text-shadow: 0 0 10px #ff00c8;
 }
+
+/* Center the welcome block on landing page */
+body.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Fill the entire screen height */
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
