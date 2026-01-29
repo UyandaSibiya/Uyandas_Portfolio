@@ -38,7 +38,7 @@ Welcome to my portfolio! Here you'll find my web, mobile, and full-stack project
 ## 🌐 Portfolio Website
 
 
-(*If hosted elsewhere, update this link accordingly*)](https://uyandasibiya.github.io/Uyandas_Portfolio/)
+(https://uyandasibiya.github.io/Uyandas_Portfolio/)
 
 ## 📫 Contact
 
